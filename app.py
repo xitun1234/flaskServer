@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello Woaaaadrld!"
+    return "<h1>Welcome to CodingX</h1>"
 
 @app.route('/getOTPHotmail')
 def my_route():
